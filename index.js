@@ -13,7 +13,7 @@ function encriptar() {
         document.getElementById("texto").value = textoCifrado;
         tituloMensaje.textContent = "Texto encriptado con éxito";
         parrafo.textContent = "";
-        muñeco.src = "img/celebracion.png";
+        muñeco.src = "img/celebracion.jpg";
     }else{
         muñeco.src = "img/triste.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado"
@@ -37,7 +37,7 @@ function desencriptar(){
             document.getElementById("texto").value = textoCifrado;
             tituloMensaje.textContent = "Texto desencriptado con éxito";
             parrafo.textContent = "";
-            muñeco.src = "img/celebracion.png";
+            muñeco.src = "img/celebracion.jpg";
         }else{
             muñeco.src = "img/triste.png";
             tituloMensaje.textContent = "Ningún mensaje fue encontrado"
